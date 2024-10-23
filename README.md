@@ -191,37 +191,6 @@ This command generates two PDFs:
 
 Contributions are welcome! Please follow these steps:
 
-1. **Fork the Repository:**
-
-   Click the "Fork" button at the top of the repository page.
-
-2. **Create a New Branch:**
-
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-
-3. **Make Your Changes:**
-
-   Implement your feature or fix.
-
-4. **Commit Your Changes:**
-
-   ```bash
-   git commit -m "Add your message here"
-   ```
-
-5. **Push to the Branch:**
-
-   ```bash
-   git push origin feature/YourFeatureName
-   ```
-
-6. **Open a Pull Request:**
-
-   Navigate to your forked repository and click the "Compare & pull request" button.
-
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
 
 ## License
 
