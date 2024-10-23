@@ -189,7 +189,7 @@ This command generates two PDFs:
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! 
 
 
 ## License
