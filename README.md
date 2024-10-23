@@ -79,7 +79,7 @@ vispy <input_file.py> [focus_class1 focus_class2 ...]
 ```
 
 - `<input_file.py>`: Path to the Python file.
-- `[focus_class1 focus_class2 ...]`: (Optional) Classes to focus on in the visualization.
+- `[focus_class1 focus_class2 ...]`: (at least 2 required) Classes to focus on in the visualization.
 
 **Example:**
 
