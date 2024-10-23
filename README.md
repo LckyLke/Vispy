@@ -1,4 +1,4 @@
-```markdown
+
 # Vispy
 
 [![PyPI version](https://badge.fury.io/py/vispy.svg)](https://badge.fury.io/py/vispy)
