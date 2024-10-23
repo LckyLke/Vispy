@@ -242,7 +242,7 @@ def main():
     else:
         print("No focus classes provided. Visualization requires at least one focus class.")
 
-def generate_enhanced_visualization(classes, focus_classes, include_inherited=False, output_filename='class_hierarchy_enhanced.gv.pdf'):
+def generate_enhanced_visualization(classes, focus_classes, include_inherited=False, output_filename='class_hierarchy_enhanced.gv'):
     """
     Generates the enhanced visualization with color-coded sections in class tables,
     indicating shared and unique methods/variables among focus classes.
@@ -412,7 +412,7 @@ def generate_enhanced_visualization(classes, focus_classes, include_inherited=Fa
     dot.render(output_filename, view=False)
     print(f"Enhanced visualization saved as '{output_filename}'.")
 
-def generate_original_visualization(classes, focus_classes, include_inherited, output_filename='class_hierarchy_original.gv.pdf'):
+def generate_original_visualization(classes, focus_classes, include_inherited, output_filename='class_hierarchy_original.gv'):
     """
     Generates the original visualization with lines connecting classes to methods and variables.
     Shared methods/variables are colored differently and arranged vertically to reduce width.
@@ -593,8 +593,8 @@ def generate_visualizations(classes, focus_classes, include_inherited=False):
         focus_classes (list): List of focus class names.
         include_inherited (bool): Whether to include inherited methods/variables.
     """
-    generate_enhanced_visualization(classes, focus_classes, include_inherited, 'class_hierarchy_enhanced.gv.pdf')
-    generate_original_visualization(classes, focus_classes, include_inherited, 'class_hierarchy_original.gv.pdf')
+    generate_enhanced_visualization(classes, focus_classes, include_inherited, 'class_hierarchy_enhanced.gv')
+    generate_original_visualization(classes, focus_classes, include_inherited, 'class_hierarchy_original.gv')
 
 if __name__ == "__main__":
     main()
