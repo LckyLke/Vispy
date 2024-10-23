@@ -1,9 +1,9 @@
 
 # Vispy
 
-[![PyPI version](https://badge.fury.io/py/vispy.svg)](https://badge.fury.io/py/vispy)
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/vispy.svg?style=social&label=Stars)](https://github.com/yourusername/vispy)
+
 
 **Vispy** is a Python package that analyzes class hierarchies in Python files, extracts methods and variables, identifies shared elements among classes, and generates visualizations to help developers understand their code structure.
 
