@@ -1,0 +1,13 @@
+// Class Hierarchy Enhanced
+digraph {
+	rankdir=TB
+	subgraph cluster_focus {
+		color=blue label="Focus Classes" rank=same
+	}
+	subgraph cluster_non_focus {
+		color=gray label="Other Classes" rank=same
+		ClassA [label=<<TABLE BORDER='0' CELLBORDER='1' CELLSPACING='0'><TR><TD BGCOLOR='lightgray'><B>ClassA</B></TD></TR><TR><TD><U>Methods</U></TD></TR><TR><TD>method_shared_ab</TD></TR><TR><TD>method_shared_all</TD></TR><TR><TD>method_unique_a</TD></TR></TABLE>> shape=plaintext]
+		ClassB [label=<<TABLE BORDER='0' CELLBORDER='1' CELLSPACING='0'><TR><TD BGCOLOR='lightgray'><B>ClassB</B></TD></TR><TR><TD><U>Methods</U></TD></TR><TR><TD>method_shared_ab</TD></TR><TR><TD>method_shared_all</TD></TR><TR><TD>method_unique_b</TD></TR></TABLE>> shape=plaintext]
+		ClassC [label=<<TABLE BORDER='0' CELLBORDER='1' CELLSPACING='0'><TR><TD BGCOLOR='lightgray'><B>ClassC</B></TD></TR><TR><TD><U>Methods</U></TD></TR><TR><TD>method_shared_all</TD></TR><TR><TD>method_unique_c</TD></TR></TABLE>> shape=plaintext]
+	}
+{ rank=min;  }}
