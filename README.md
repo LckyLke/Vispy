@@ -1,6 +1,6 @@
 # Vispy
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+//[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Vispy** is a Python package that analyzes class hierarchies in Python files, extracts methods and variables, identifies shared elements among classes (including inherited ones), and generates visualizations to help developers understand their code structure more effectively.
 
@@ -192,9 +192,7 @@ This command generates two PDFs:
 Contributions are welcome! 
 
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
